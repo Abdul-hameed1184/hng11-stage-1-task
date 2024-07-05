@@ -85,7 +85,7 @@ nav ul{
         gap: 1rem;
     }
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     body{
         max-width: 100vw;
     }
@@ -103,13 +103,14 @@ nav ul{
         font-size: 12px;
     }
     nav{
-        /* margin: 1rem; */
+        margin: 1rem;
         background-color: black;
         padding: 1rem;
         height: 3rem;
         color: blueviolet;
+        width: 100vw;
     }
-}
+} */
 @media (max-width: 769px) {
     body{
         max-width: 100vw;
@@ -118,9 +119,37 @@ nav ul{
     .grid{
         display: grid;
         grid-template-columns:50% 50%;
-        margin: 3rem 2rem;
+        margin: 2rem 2rem;
         height: 50vh;
         gap: 1rem;
+    }
+    .details a{
+        font-size: 12px;
+    }
+    nav{
+        background-color: black;
+        padding: 1rem;
+        height: 3rem;
+        color: blueviolet;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    nav ul{
+        margin: 1rem 2rem;
+    }
+}
+@media (max-width: 600px) {
+    body{
+        max-width: 100vw;
+        height: 10vh;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns:50% 50%;
+        margin: 0rem 2rem;
+        height: 50vh;
+        gap: 0rem;
     }
     .details a{
         font-size: 12px;
