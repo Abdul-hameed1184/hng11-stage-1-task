@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 243, 244);
+    align-items: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 15% 70%;
+    margin: 3rem 3rem;
+    height: 50vh;
+    gap: 5rem;
+}
+.details{
+    margin: 3rem 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.links{
+    display: block;
+    line-height: 1.5rem;
+}
+.profile-pic img{
+    display: none;
+}
+.profile-pic {
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    overflow: hidden;
+    background-image: url('97f11c94d371a259790638fd0a8bf69e.png');
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+a{
+    color: blueviolet;
+    text-decoration: none;
+
+}
+div{
+    margin-bottom: 2rem;
+}
+hr{
+    color: grey;
+    width: 90vw;
+}
+nav{
+    /* margin: 1rem; */
+    background-color: black;
+    padding: 1rem;
+    height: 3rem;
+    color: blueviolet;
+}
+nav ul{
+    margin: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    list-style: none;
+}
+.goals{
+    margin: 2rem;
+}
+
+.goals li{
+
+    line-height: 1.5rem;
+}
+.hng p{
+    margin-bottom: 1rem;
+}
+@media (max-width: 769px) {
+    body{
+        max-width: 100vw;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns:30% 70%;
+        margin: 3rem 2rem;
+        height: 50vh;
+        gap: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    body{
+        max-width: 100vw;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns:40% 60%;
+        margin: 3rem 2rem;
+        height: 50vh;
+        gap: 1rem;
+    }
+    nav ul{
+        margin: 2rem 1rem;
+    }
+    .details a{
+        font-size: 12px;
+    }
+    nav{
+        /* margin: 1rem; */
+        background-color: black;
+        padding: 1rem;
+        height: 3rem;
+        color: blueviolet;
+    }
+}
+@media (max-width: 769px) {
+    body{
+        max-width: 100vw;
+        height: 10vh;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns:50% 50%;
+        margin: 3rem 2rem;
+        height: 50vh;
+        gap: 1rem;
+    }
+    .details a{
+        font-size: 12px;
+    }
+    nav{
+        background-color: black;
+        padding: 1rem;
+        height: 3rem;
+        color: blueviolet;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    nav ul{
+        margin: 1rem 2rem;
+    }
+}
+
